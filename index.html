@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio 06 - Javascript para la Web</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://kit.fontawesome.com/e190a6dfc5.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="header">
+      <h1>Conversor de monedas</h1>
+    </header>
+
+    <main class="main">
+      <div class="container--conversor container--flex">
+        <h2 class="conversor__title">Pesos CLP</h2>
+        <input id="cantidadCLP" class="input" type="number" placeholder="Ingresa monto en CLP...">
+        <p class="conversor__cuales">Moneda a convertir</p>
+        <select id="selectorMonedas" class="select">
+          <option id="moneda_dolar" value="dolar">USD</option>
+          <option id="moneda_euro" value="euro">EUR</option>
+          <option id="moneda_uf" value="uf">UF</option>
+          <option id="moneda_utm" value="utm">UTM</option>
+          <option id="moneda_bitcoin" value="bitcoin">BTC</option>
+        </select>
+        <button id="iniciarBusqueda" class="btn btn--send" type="submit">Buscar</button>
+        <p class="conversor__final">Resultado:</p>
+        <h3 class="conversor__resultado" id="resultadoFinal"></h3>
+      </div>
+      <p id="disclaimer" class="disclaimer"></p>
+    </main>
+
+    <section id="sectionBG" class="section">
+      <canvas id="myChart"></canvas>
+    </section>
+
+  </div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

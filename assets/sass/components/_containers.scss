@@ -1,0 +1,25 @@
+.container {
+  max-width: calc(300px * 3 + 5em);
+  margin: 0 1em;
+  text-align: center;
+
+  @media (min-width: 1000px) {
+    margin: 0 auto;
+  }
+
+  &--flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &--conversor {
+    border-radius: 0.5em;
+    padding: 1em;
+    background-color: #3f51b5;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    color: #ffffff;
+    box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.85);
+  }
+}

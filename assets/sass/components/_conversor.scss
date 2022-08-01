@@ -1,0 +1,19 @@
+.conversor {
+  &__title {
+    padding-bottom: 0.25em;
+  }
+
+  &__cuales {
+    padding: 0.5em 0;
+  }
+
+  &__final {
+    font-style: oblique;
+    font-size: 0.875rem;
+  }
+
+  &__resultado {
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+}
