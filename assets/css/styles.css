@@ -114,11 +114,9 @@ select {
   margin-bottom: 0.5em;
   padding: 0 0.5em;
 }
-@media (min-width: 415px) {
-  .input {
-    margin-right: 0.5em;
-    margin-bottom: 0;
-  }
+
+.select {
+  padding: 0 0.25em;
 }
 
 .btn {
